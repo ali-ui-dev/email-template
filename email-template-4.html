@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Email Template</title>
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
         /* Reset styles for email */
-        body, html {
+        body,
+        html {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -41,13 +43,6 @@
         }
 
         /* Styling for credentials */
-        .credentials-container {
-            display: flex;
-            flex-direction: column; /* Align children vertically */
-            align-items: center; /* Center horizontally */
-
-        }
-
         .credentials {
             border: 1px solid #3fbcd5;
             max-width: 400px;
@@ -91,49 +86,51 @@
         .text-center {
             text-align: center;
         }
-        </style>
-    </head>
-    <body>
-        <!-- Header -->
-        <div class="header">
-            <h1>Standard Email Header</h1>
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Standard Email Header</h1>
+    </div>
+    <!-- Body -->
+    <div class="container">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+            Lorem Ipsum.</p>
+        <div class="text-center">
+            <a href="https://webropol.com" class="button">Click Here</a>
         </div>
-        <!-- Body -->
-        <div class="container">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <!-- Button 
-        <table border="0" cellspacing="0" cellpadding="0" align="center">
-            <tr>
-                <td align="center" style="border-radius: 5px; background-color: #79d6e7;">
-                    <a href="https://webropol.com" style="display: inline-block; padding: 10px 20px; text-decoration: none; color: #204859;">Click Here</a>
-                </td>
-            </tr>
-        </table>
-        <br>
-        -->
-            <div class="text-center">
-                <a href="https://webropol.com" class="button">Click Here</a>
-            </div>
-            <!--<![endif]-->
-        </div>
-        <div class="credentials-container">
-            <div class="credentials">
-                <p>
-                    <span>Username:</span> user123
-                </p>
-                <p>
-                    <span>Password:</span> password123
-                </p>
-            </div>
-        </div>
-        <br>
-        <!-- Footer -->
-        <div class="footer">
-            <!-- Image on the left -->
-            <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
-            <!-- Text on the right -->
-            <p class="footer-text" style="display: none;">Footer text goes here.</p>
-        </div>
-    </body>
+    </div>
+    <!-- Credentials -->
+    <table class="container" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+            <td align="center">
+                <table class="credentials" cellpadding="0" cellspacing="0" border="0" width="400"
+                    style="margin: 0 auto;">
+                    <tr>
+                        <td style="padding: 20px;">
+                            <p><span>Username:</span> user123</p>
+                            <p><span>Password:</span> password123</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Image on the left -->
+        <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px"
+            alt="Footer Image">
+        <!-- Text on the right -->
+        <p class="footer-text" style="display: none;">Footer text goes here.</p>
+    </div>
+</body>
+
 </html>
