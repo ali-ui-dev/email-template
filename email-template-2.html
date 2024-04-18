@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900" rel="stylesheet" type="text/css">
-        <title>Email Template</title>
-        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
         /* Reset styles for email */
-        body,
-        html {
+        body, html {
             margin: 0;
             padding: 0;
-            font-family: Roboto, Arial, sans-serif;
+            font-family: Arial, sans-serif;
         }
 
         /* Styling for header */
@@ -52,7 +50,6 @@
 
         /* Styling for footer image */
         .footer img {
-            display: inline-block;
             max-width: 100px;
             height: auto;
             vertical-align: middle;
@@ -60,51 +57,43 @@
 
         /* Styling for footer text */
         .footer p {
-            display: inline-block;
             margin: 0;
-            vertical-align: middle;
-        }
-
-        .footer-text {
             font-size: 14px;
         }
 
         .text-center {
             text-align: center;
         }
-
-        .button-image {
-            display: inline-block;
-            align-items: center;
-            align-content: center;
-            color: white;
-            text-decoration: none;
-            border-radius: 24px;
-            width: 100px;
-            height: 48px;
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAAA4CAYAAAAW/KEGAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyklEQVR4nO3c0QnEMBBDwQRcnfuvJ5si/CAQZiq4DyGtCdw9e88Fh5YUUVjPiBLn1vP1L+AXNBIJQSLh2CahkUgIEgmvNhIaiYRGIrFGIxEwbSRMGwmNREKQSPhEQkIjkXBsk9BIJASJhGkj4RMJCdNGwrSR0EgkNBIJjUTCq42EaSNh2kgIEgnTRsKxTUIjkXAjkRAkEqaNhEYi4dVGwrSRMG0kNBIJjUTCsU3CtJEwbSQEiYRpI6GRSPjHNhIaiYQgkXBsk9BIJF5r/X3Ii7MS1QAAAABJRU5ErkJggg==');
-
-        }
-        </style>
-    </head>
-    <body>
-        <!-- Header -->
-        <div class="header">
-            <h1>Standard Email Header</h1>
-        </div>
-        <!-- Body -->
-        <div class="container text-center">
-            <p>Body text goes here.</p>
-            <!-- Button -->
-            <a href="https://webropol.com" class="button-image">Click Here</a>
-        </div>
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Standard Email Header</h1>
+    </div>
+    <!-- Body -->
+    <div class="container text-center">
+        <p>Body text goes here.</p>
+        <!-- Button 
+        <table border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+                <td align="center" style="border-radius: 5px; background-color: #79d6e7;">
+                    <a href="https://webropol.com" style="display: inline-block; padding: 10px 20px; text-decoration: none; color: #204859;">Click Here</a>
+                </td>
+            </tr>
+        </table>
         <br>
-        <!-- Footer -->
-        <div class="footer">
-            <!-- Image on the left -->
-            <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
-            <!-- Text on the right -->
-            <p class="footer-text" style="display: none;">Footer text goes here.</p>
-        </div>
-    </body>
+        -->
+        <a href="https://webropol.com" class="button">Click Here</a>
+        <!--<![endif]-->
+    </div>
+    <br>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Image on the left -->
+        <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
+        <!-- Text on the right -->
+        <p class="footer-text" style="display: none;">Footer text goes here.</p>
+    </div>
+</body>
 </html>
