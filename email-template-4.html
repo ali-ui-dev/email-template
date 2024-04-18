@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Template</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Template</title>
+        <style>
         /* Reset styles for email */
         body, html {
             margin: 0;
@@ -41,16 +41,21 @@
         }
 
         /* Styling for credentials */
+        .credentials-container {
+            display: flex;
+            flex-direction: column; /* Align children vertically */
+            align-items: center; /* Center horizontally */
+
+        }
+
         .credentials {
-            border: 1px solid #ccc;
+            border: 1px solid #3fbcd5;
             max-width: 400px;
             border-radius: 5px;
             padding: 20px;
-            background-color: #f9f9f9;
-            margin: 20px;
-            align-items: center;
-            align-content: center;
+            background-color: #f2fcfd;
             display: inline-block;
+            margin: 20px;
         }
 
         .credentials p {
@@ -86,17 +91,17 @@
         .text-center {
             text-align: center;
         }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <div class="header">
-        <h1>Standard Email Header</h1>
-    </div>
-    <!-- Body -->
-    <div class="container text-center">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <h1>Standard Email Header</h1>
+        </div>
+        <!-- Body -->
+        <div class="container">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         <!-- Button 
         <table border="0" cellspacing="0" cellpadding="0" align="center">
             <tr>
@@ -107,20 +112,28 @@
         </table>
         <br>
         -->
-        <a href="https://webropol.com" class="button">Click Here</a>
-        <!--<![endif]-->
-    </div>
-    <div class="credentials">
-        <p><span>Username:</span> user123</p>
-        <p><span>Password:</span> password123</p>
-    </div>
-    <br>
-    <!-- Footer -->
-    <div class="footer">
-        <!-- Image on the left -->
-        <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
-        <!-- Text on the right -->
-        <p class="footer-text" style="display: none;">Footer text goes here.</p>
-    </div>
-</body>
+            <div class="text-center">
+                <a href="https://webropol.com" class="button">Click Here</a>
+            </div>
+            <!--<![endif]-->
+        </div>
+        <div class="credentials-container">
+            <div class="credentials">
+                <p>
+                    <span>Username:</span> user123
+                </p>
+                <p>
+                    <span>Password:</span> password123
+                </p>
+            </div>
+        </div>
+        <br>
+        <!-- Footer -->
+        <div class="footer">
+            <!-- Image on the left -->
+            <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
+            <!-- Text on the right -->
+            <p class="footer-text" style="display: none;">Footer text goes here.</p>
+        </div>
+    </body>
 </html>
