@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        /* Reset styles for email */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling for header */
+        .header {
+            background-color: #d5f4f8;
+            padding: 20px;
+            text-align: center;
+            color: #204859;
+        }
+
+        /* Styling for body */
+        .container {
+            padding: 20px;
+        }
+
+        /* Styling for form */
+        .form {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #204859;
+            font-weight: bold;
+        }
+
+        .form input[type="text"],
+        .form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box; /* Ensures padding and border are included in width */
+        }
+
+        /* Styling for button */
+        .button {
+            display: inline-block;
+            background-color: #79d6e7;
+            color: #204859;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #3fbcd5;
+        }
+
+        /* Styling for footer */
+        .footer {
+            background-color: #d5f4f8;
+            padding: 20px;
+            text-align: center;
+            color: #204859;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Standard Email Header</h1>
+    </div>
+    <!-- Body -->
+    <div class="container">
+        <div class="form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <a href="#" class="button">Login</a>
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <div class="footer">
+        <p>Footer text goes here.</p>
+    </div>
+</body>
+</html>
