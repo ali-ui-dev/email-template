@@ -1,100 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Template</title>
-    <style>
-        /* Reset styles for email */
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to [Your Company Name]!</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
 
-        /* Styling for header */
-        .header {
-            background-color: #d5f4f8;
-            padding: 20px;
-            text-align: center;
-            color: #204859;
-        }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
 
-        /* Styling for body */
-        .container {
-            padding: 20px;
-        }
+    .header img {
+      max-width: 100%;
+      height: auto;
+    }
 
-        /* Styling for button */
-        .button {
-            display: inline-block;
-            background-color: #79d6e7;
-            color: #204859;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+    .body-content {
+      margin-top: 20px;
+    }
 
-        .button:hover {
-            background-color: #3fbcd5;
-        }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
 
-        /* Styling for footer */
-        .footer {
-            background-color: #d5f4f8;
-            padding: 20px;
-            text-align: center;
-            color: #204859;
-        }
-
-        /* Styling for footer image */
-        .footer img {
-            max-width: 100px;
-            height: auto;
-            vertical-align: middle;
-        }
-
-        /* Styling for footer text */
-        .footer p {
-            margin: 0;
-            font-size: 14px;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-    </style>
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      color: #666666;
+    }
+  </style>
 </head>
+
 <body>
-    <!-- Header -->
+ <br>
+  <div class="container">
     <div class="header">
-        <h1>Standard Email Header</h1>
+      <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px"
+        alt="Footer Image">
     </div>
-    <!-- Body -->
-    <div class="container text-center">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <!-- Button 
-        <table border="0" cellspacing="0" cellpadding="0" align="center">
-            <tr>
-                <td align="center" style="border-radius: 5px; background-color: #79d6e7;">
-                    <a href="https://webropol.com" style="display: inline-block; padding: 10px 20px; text-decoration: none; color: #204859;">Click Here</a>
-                </td>
-            </tr>
-        </table>
-        <br>
-        -->
-        <a href="https://webropol.com" class="button">Click Here</a>
-        <!--<![endif]-->
+    <div class="body-content">
+      <p>Dear [User's Name],</p>
+      <p>Welcome to [Your Company Name]! We're thrilled to have you on board.</p>
+      <p>Below are your login credentials:</p>
+      <ul style="background:#d5f4f8;border-radius:4px;color:#000;display:inline-block;font-family:Roboto,Open Sans,arial,sans-serif;font-size:16px;word-break:break-word;font-weight:500;line-height:24px;text-align:center;text-decoration:none;padding:14px 26px 14px"">
+        <li>
+          <strong>Username:</strong> [Insert Username]
+        </li>
+        <li>
+          <strong>Password:</strong> [Insert Password]
+        </li>
+      </ul>
+      <p>Please keep these credentials secure and do not share them with anyone.</p>
+      <p>If you have any questions or need assistance, feel free to reach out to our support team at
+        <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>.
+      </p>
+      <div>
+        <a dir="ltr" href="https://webropol.com"
+          style="background:#3fbcd5;border-radius:4px;color:#ffffff;display:inline-block;font-family:Roboto,Open Sans,arial,sans-serif;font-size:16px;word-break:break-word;font-weight:500;line-height:24px;text-align:center;text-decoration:none;padding:14px 26px 14px"
+          target="_blank" rel="noreferrer noopener">Get Started</a>
+        <a dir="ltr" href="https://webropol.com"
+          style="background:#3fbcd5;border-radius:4px;color:#ffffff;display:inline-block;font-family:Roboto,Open Sans,arial,sans-serif;font-size:16px;word-break:break-word;font-weight:500;line-height:24px;text-align:center;text-decoration:none;padding:14px 26px 14px"
+          target="_blank" rel="noreferrer noopener">Learn More</a>
+        <a dir="ltr" href="https://webropol.com"
+          style="background:#3fbcd5;border-radius:4px;color:#ffffff;display:inline-block;font-family:Roboto,Open Sans,arial,sans-serif;font-size:16px;word-break:break-word;font-weight:500;line-height:24px;text-align:center;text-decoration:none;padding:14px 26px 14px"
+          target="_blank" rel="noreferrer noopener">Check it out</a>
+      </div>
     </div>
-    <br>
-    <!-- Footer -->
     <div class="footer">
-        <!-- Image on the left -->
-        <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px" alt="Footer Image">
-        <!-- Text on the right -->
-        <p class="footer-text" style="display: none;">Footer text goes here.</p>
+      <hr style="border-top: 1px solid #f2fdff; margin: 40px 0 20px;">
+      <p>Thank you!</p>
+      <img src="https://webropol.com/wp-content/themes/webropol/images/logo.png" style="width: 100px"
+        alt="Footer Image">
     </div>
+  </div>
+  <br>
 </body>
+
 </html>
