@@ -1,117 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <style>
-      /* General styles */
-      body {
-        margin: 0;
-        padding: 12px 0;
-        font-family: Arial, sans-serif;
-        background-color: #ebf4f7;
-      }
-      table {
-        border-spacing: 0;
-        width: 100%;
-        max-width: 600px;
-        margin: auto;
-        background-color: #ffffff;
-        border-radius: 8px;
-        overflow: hidden; /* To ensure content fits within rounded edges */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        border: 1px solid #ffffff;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-      }
-      .header {
-        background-color: #ffffff;
-        color: #272a2b;
-        padding: 20px;
-        text-align: center;
-      }
-      .header h1 {
-        margin: 0;
-        font-size: 24px;
-      }
-      .body {
-        padding: 20px;
-        color: #272a2b;
-        line-height: 1.6;
-        font-size: 16px;
-      }
-      .button {
-        display: block;
-        margin: 20px auto;
-        padding: 10px 20px;
-        background-color: #1e6880;
-        color: #ffffff;
-        text-decoration: none;
-        text-align: center;
-        border-radius: 360px;
-        font-size: 16px;
-      }
-      .button:hover {
-        background-color: #215669;
-      }
-      .footer {
-        background-color: #ebf4f7;
-        color: #787f81;
-        text-align: center;
-        padding: 10px;
-        font-size: 14px;
-      }
-      .footer a {
-        color: #1e6880;
-        text-decoration: none;
-      }
-      .footer a:hover {
-        text-decoration: underline;
-      }
+        /* General styles */
+        body {
+            margin: 0;
+            padding: 12px 0;
+            font-family: Arial, sans-serif;
+            background-color: #EBF4F7;
+        }
+        table {
+            border-spacing: 0;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px; 
+            overflow: hidden; /* To ensure content fits within rounded edges */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            border: 1px solid #ffffff; 
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .header {
+            background-color: #ffffff;
+            color: #272A2B;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .body {
+            padding: 20px;
+            color: #272A2B;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #1E6880;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 360px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #215669;
+        }
+        .footer {
+            background-color: #EBF4F7;
+            color: #787F81;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #1E6880;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <table>
-      <!-- Header -->
-      <tr>
-        <td class="header">
-          <h1>
-            We are pleased to see you participating in [SURVEY_NAME] Survey!
-          </h1>
-        </td>
-      </tr>
-      <!-- Body -->
-      <tr>
-        <td class="body">
-          <p>Hello [Firstname],</p>
-          <p>
-            We’re thrilled to have you here! Webropol is your go-to platform for
-            powerful surveys and data collection tools. Start exploring now and
-            unleash the full potential of your data.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="https://webropol.co.uk/wp-content/uploads/2023/10/webropol_130423-235-web.jpg"
-          />
-        </td>
-      </tr>
-      <tr>
-        <td class="body">
-          <p>Click the button below to get started:</p>
-          <a href="[SurveyLinkText]" class="button">Get Started</a>
-        </td>
-      </tr>
-      <!-- Footer -->
-      <tr>
-        <td class="footer">
-          <p>&copy; 2024 Webropol. All rights reserved.</p>
-          <p><a href="">Privacy Policy</a> | <a href="">Unsubscribe</a></p>
-        </td>
-      </tr>
+        <!-- Header -->
+        <tr>
+            <td class="header">
+                <h1>We are pleased to see you participating in [SURVEY_NAME] Survey!</h1>
+            </td>
+        </tr>
+        <!-- Body -->
+        <tr>
+            <td class="body">
+                <p>Hello [Firstname],</p>
+                <p>We’re thrilled to have you here! Webropol is your go-to platform for powerful surveys and data collection tools. Start exploring now and unleash the full potential of your data.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://webropol.co.uk/wp-content/uploads/2023/10/webropol_130423-235-web.jpg"/>   
+            </td>
+        </tr>
+        <tr>
+            <td class="body">
+                <p>Click the button below to get started:</p>
+                <a href="[SurveyLinkText]" class="button">Get Started</a>
+            </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+            <td class="footer">
+                <p>&copy; 2024 Webropol. All rights reserved.</p>
+                <p><a href="">Privacy Policy</a> | <a href="">Unsubscribe</a></p>
+            </td>
+        </tr>
+
     </table>
-  </body>
+</body>
 </html>
